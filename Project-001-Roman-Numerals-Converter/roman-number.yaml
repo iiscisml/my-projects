@@ -47,7 +47,6 @@ Resources:
       Tags:
         - Key: Name 
           Value: !Sub Web Serverof ${AWS::StackName} Stack 
-
 Outputs:
   WebURL:
     Description: Roman numeral converter URL
