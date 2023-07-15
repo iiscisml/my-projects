@@ -91,5 +91,3 @@ At the end of the this hands-on training, students will be able to;
 - Run application with Python
 
 
-# pip install -U Flask-SQLAlchemy
-# pip install SQLAlchemy

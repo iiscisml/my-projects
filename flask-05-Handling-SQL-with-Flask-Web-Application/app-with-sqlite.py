@@ -12,7 +12,7 @@ with app.app_context():
     CREATE TABLE users(
     username VARCHAR NOT NULL PRIMARY KEY,
     email VARCHAR);
-    """) 
+    """)
     data = text("""
     INSERT INTO users
     VALUES
@@ -84,7 +84,7 @@ def add_email():
 
 # - Add a statement to run the Flask application which can be reached from any host on port 80.
 if __name__=='__main__':
-    #app.run(debug=True)
-    app.run(host='0.0.0.0', port=80)
+    app.run(debug=True)
+    # app.run(host='0.0.0.0', port=80)
 
 # https://flask-sqlalchemy.palletsprojects.com/en/2.x/config/
